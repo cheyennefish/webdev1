@@ -1,0 +1,18 @@
+body {
+    background: tan;
+}
+h1 {
+    color: blue;
+    background: lightskyblue;
+    text-align: center;
+}
+
+div {
+    font-size: 60;
+    background: chocolate;
+    text-align: center;
+    padding: 30px;
+    border: 10px dotted blue;
+    margin: 60px;
+
+}
