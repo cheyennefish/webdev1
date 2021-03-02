@@ -1,0 +1,12 @@
+h1{color: darkblue;}
+.px { font-size: 24px;}
+
+.em { background: darkgrey;
+font-size: 2em;}
+.rem { font-size: 1rem;}
+
+.percent-container {background: darkkhaki;}
+
+.percent {background:   darkolivegreen;
+width: 50%;
+height: 20%;}

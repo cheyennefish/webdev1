@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: cornflowerblue;
+    margin: 1em;
+}
+
+.big {
+    width: 200px;
+    height: 200px;
+    background: coral;
+}

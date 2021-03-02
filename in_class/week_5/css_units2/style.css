@@ -1,0 +1,17 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:
+    border-box:
+
+}
+
+.box-em {
+    /* width: 1em;
+    height: 1em; */
+    background: gray;
+    font-size: 40px;
+    width: max-content;
+    padding: 1em;
+    background: gray;
+}
