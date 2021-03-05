@@ -1,0 +1,50 @@
+body {
+    min-height: 200vh;
+}
+
+#candles {
+    width:300px;
+    position: fixed;
+    top: 400px;
+    left: 300px;
+    padding: 2em;
+    border: 3px dotted red;
+    margin: 2em;
+    background: pink;
+    z-index: 2;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: purple;
+    margin: 1em;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+
+#special-box {
+    border: 10px dotted cyan;
+    background: orange;
+}
+
+#jewelry {
+    width: 30%;
+    position: absolute;
+    right: 0;
+}
+
+#mirror {
+    width: 200px;
+}
+
+h1 {
+    background: orange;
+}
+
+
+
+
