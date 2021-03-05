@@ -2,49 +2,79 @@ body {
     min-height: 200vh;
 }
 
+h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    background: rgb(2, 54, 2);
+    color: rgb(241, 235, 207);
+    text-align: center;
+    padding: 3%;
+    z-index: 999;
+
+}
+#brands { 
+    position: relative;
+    top: 5%;
+    z-index: 0;
+}
+
 #candles {
     width:300px;
-    position: fixed;
-    top: 400px;
-    left: 300px;
-    padding: 2em;
-    border: 3px dotted red;
-    margin: 2em;
-    background: pink;
-    z-index: 2;
-}
-
-.box {
-    width: 200px;
-    height: 200px;
-    background: purple;
-    margin: 1em;
-}
-
-.circle {
-    border-radius: 50%;
-}
-
-
-#special-box {
-    border: 10px dotted cyan;
-    background: orange;
-}
-
-#jewelry {
-    width: 30%;
     position: absolute;
-    right: 0;
+    top: 400px;
+    left: 0;
+    padding: 3em;
+    border: 30px dotted rgb(2, 54, 2);
+    margin: 0;
+    background: rgb(212, 200, 165);
+    z-index: 2;
 }
 
 #mirror {
     width: 200px;
+    position: absolute;
+    top: 470px;
+    right: 30%;
+    padding: 2em;
+    background-color: rgb(2, 54, 2);
+    border: 50px rgb(212, 200, 165);
 }
 
-h1 {
-    background: orange;
+#jewelry {
+    width:250px;
+    position: absolute;
+    top: 400px;
+    right: 0%;
+    padding: 3em;
+    border: 30px dotted rgb(2, 54, 2);
+    margin: 0;
+    background: rgb(212, 200, 165);
+    z-index: 999;
 }
 
+
+
+#lipgloss {
+    width: 15%;
+    position: absolute;
+    top: 45em;
+    left: 30em;
+    padding: 1em;
+    background-color: rgb(212, 200, 165);
+    z-index: 999;
+}
+
+#water {
+    width: 14%;
+    position: absolute;
+    top: 25em;
+    right: 45em;
+    padding: 1em;
+    background-color: rgb(212, 200, 165);
+    z-index: 998;
+
+
+}
 
 
 
