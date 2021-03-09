@@ -1,0 +1,19 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    background-image: url(assets/images/capuchin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-title {
+    font-size: 10vmin;
+    color: white;
+
+}
+
+.bg-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
