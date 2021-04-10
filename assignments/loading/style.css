@@ -1,0 +1,22 @@
+body { 
+    background-color: rgb(250, 247, 234);
+}
+header { 
+    font-size: 40px;
+    background: rgb(2, 54, 2);
+    color: rgb(241, 235, 207);
+    text-align: center;
+    padding: 3%;
+    z-index: 999;
+}
+
+#waiting-circle { 
+    position: relative;
+    top: 50px;
+    left: 10%;
+    color:rgb(2, 54, 2)
+}
+
+#waiting-circle:hover {
+    background-color: rosybrown;
+}
