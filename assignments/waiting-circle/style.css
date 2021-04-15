@@ -1,7 +1,7 @@
 body {
   background-color: rgb(241, 235, 207);
 }
-.loader {
+.waiting-circle {
     border: 16px solid #f3f3f3; 
     border-top: 16px solid rgb(2, 54, 2);
     border-radius: 50%;

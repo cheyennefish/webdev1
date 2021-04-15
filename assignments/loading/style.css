@@ -1,22 +1,49 @@
 body { 
     background-color: rgb(250, 247, 234);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header { 
     font-size: 40px;
     background: rgb(2, 54, 2);
     color: rgb(241, 235, 207);
     text-align: center;
+
     padding: 3%;
     z-index: 999;
 }
 
 #waiting-circle { 
-    position: relative;
-    top: 50px;
-    left: 10%;
-    color:rgb(2, 54, 2)
+    color:rgb(2, 54, 2);
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
 }
 
 #waiting-circle:hover {
-    background-color: rosybrown;
+    background-color: rgb(241, 235, 207);
+}
+
+#loading-bar {
+    color: rgb(2, 54, 2);
+    font-size: 20px;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+#loading-bar:hover  {
+    background-color: rgb(241, 235, 207);
+}
+
+#home {
+    position: fixed;
+    right: 90%;
+    top: 2%;
+    font-size: 20px;
+    color: rgb(241, 235, 207);
+}
+
+#home:hover {
+    background-color:rgb(1, 31, 1);
 }

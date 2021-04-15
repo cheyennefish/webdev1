@@ -1,0 +1,41 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  margin: 100px auto;
+  width: 500px;
+  text-align: center;
+}
+
+.progress {
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar {	
+    height: 18px;
+    background-color: #ee303c;  
+    border-radius: 4px; 
+    transition: 0.4s linear;  
+    transition-property: width, background-color;    
+}
+
+.progress-striped .progress-bar { 	
+  background-color: #16a6b1; 
+  width: 100%; 
+  background-image: linear-gradient(
+        45deg, rgb(17, 111, 252) 25%, 
+        transparent 25%, transparent 50%, 
+        rgb(26, 160, 194) 50%, rgb(17, 252, 213) 75%,
+        transparent 75%, transparent); 
+  animation: progressAnimationStrike 6s;
+}
+
+@keyframes progressAnimationStrike {
+     from { width: 0 }
+     to   { width: 100% }
+}
+ 
