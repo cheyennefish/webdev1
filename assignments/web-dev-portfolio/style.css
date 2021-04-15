@@ -1,11 +1,11 @@
 body { 
     font-family: 'Dela Gothic One', cursive;
-    background-color: rgb(241, 235, 207);
+    background-color: rgb(255, 241, 230);
 }
 h1 {
     font-size: 40px;
-    background: rgb(2, 54, 2);
-    color: rgb(241, 235, 207);
+    background: rgb(203, 153, 126);
+    color: rgb(240, 239, 235);
     text-align: center;
     padding: 3%;
     z-index: 999;
@@ -15,11 +15,28 @@ a {
     font-size: 20px;
     position: center;
     padding-left: 40%;
-    color:rgb(2, 54, 2);
+    color:rgb(165, 165, 141);
+    z-index: 998;
     
   
 }
 
 a:hover {
-    color: rgb(165, 134, 87);
+    color: rgb(183, 183, 164);
+}
+
+#marble {
+    z-index: 1;
+    position: absolute;
+    justify-content: space-evenly;
+    top: 40%;
+    right: 50%;
+}
+
+#marble2 {
+    z-index: 1;
+    position: absolute;
+    justify-content: space-evenly;
+    top: 40%;
+    left: 50%;
 }
