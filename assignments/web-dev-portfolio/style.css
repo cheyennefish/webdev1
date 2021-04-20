@@ -29,7 +29,7 @@ a:hover {
     z-index: 1;
     position: absolute;
     justify-content: space-evenly;
-    top: 40%;
+    top: 60%;
     right: 50%;
 }
 
@@ -37,6 +37,6 @@ a:hover {
     z-index: 1;
     position: absolute;
     justify-content: space-evenly;
-    top: 40%;
+    top: 60%;
     left: 50%;
 }
